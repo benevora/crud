@@ -11,19 +11,19 @@
 <body>
   <div class="container">
     <div class="header">
-      <span>Cadastro de Funcionarios</span>
-      <button onclick="openModal()" id="new">Incluir</button>
+      <span>Employee Registration</span>
+      <button onclick="openModal()" id="new">Add In</button>
     </div>
 
     <div class="divTable">
       <table>
         <thead>
           <tr>
-            <th>Nome</th>
-            <th>Funcao</th>
-            <th>Salario</th>
-            <th class="acao">Editar</th>
-            <th class="acao">Excluir</th>
+            <th>Name</th>
+            <th>Function</th>
+            <th>Income</th>
+            <th class="acao">Edit</th>
+            <th class="acao">Delete</th>
           </tr>
         </thead>
         <tbody>
@@ -35,7 +35,7 @@
     <div class="modal-container">
       <div class="modal">
         <form>
-          <label for="m-nome">Nome</label>
+          <label for="m-nome">Name</label>
           <input 
             id="m-nome" 
             type="text" 
@@ -43,7 +43,7 @@
             required
           >
 
-          <label for="m-funcao">Funcao</label>
+          <label for="m-funcao">Function</label>
           <input 
             id="m-funcao" 
             type="text" 
@@ -51,7 +51,7 @@
             required
           >
           
-          <label for="m-salario">Salario</label>
+          <label for="m-salario">Income</label>
           <input 
             id="m-salario" 
             type="number" 
@@ -59,7 +59,7 @@
             required
           >
 
-          <button id="btnSalvar">Salvar</button>
+          <button id="btnSalvar">Save</button>
         </form>
       </div>
     </div>
